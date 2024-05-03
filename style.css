@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("Amazon-Logo-1024x373-400x146.png");
+    background-size:100px 60px;
+    height: 50px;
+    width: 100%;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+.nav-add{
+    display: flex;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+}
+.nav-add-city{
+    margin: 3px 2px 3px 0px;
+    padding: 0px 5px;
+}
+ .icon{
+    margin: 8px 0px 0px;
+    height: 15px;
+    width: 18px;
+}
+
+.first_add{
+    font-size: 0.8rem;
+    color: #ccc;
+}
+.sec_add{
+    font-size: 0.95rem;
+
+}
+
+
+
+.nav_search{
+    display: flex;
+    background-color:black;
+    width: 620px;
+    height: 40px;
+}
+
+.option{
+    color: #0f1111;
+    background-color: #e6e6e6;
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    opacity: 0.8;
+}
+.search{
+    width: 500px;
+    font-size: 1rem;
+    border: none;
+}
+.option:hover{
+    opacity: 1;
+}
+
+.search-icon{
+    background-color: rgba(255, 196, 0, 0.756);
+    color:black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.search-icon:hover{
+    background-color: rgba(255, 196, 0, 1);
+}
+
+.nav-language{
+    display: flex;
+    background-color:#000;
+    border: none;
+}
+.lan-img{
+    background-image:url("india.jpeg") ;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    border: none;
+}
+
+.nav-first{
+    font-size: 0.8rem;
+}
+.nav-sec{
+    font-size: 1rem;
+}
+
+.nav-sign{
+    width: 8.2rem;
+    height: 3rem;
+}
+.nav-order{
+    width: 5rem;
+    height: 3rem;
+}
+.nav-card{
+    width: 3.7rem;
+    height: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+}
+.panel_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    font-size: 0.88rem;
+    padding: 8px 9px;
+    margin: 0px 0px 0px 5px;
+}
+.panel-ops{
+    font-size: 0.85rem;
+    width: 70%;
+
+}.panel-ops a{
+    
+    margin: 10px 0px 9px;
+    padding: 8px 9px;
+}
+
+.panel-deals{
+    width: 380px;
+    font-size: 0.9rem;
+}
+
+/* heros-section */
+.heros-section{
+    background-image: url("heros.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    font-size: 0.85rem;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+}
+
+/* box section */
+.box-section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e2e7e6;
+    justify-content: space-evenly;
+    padding: 9px 0px 8px;
+    
+}
+.box{
+    height: 380px;
+    width: 23%;
+    background-color: white; 
+    margin-bottom: 1rem;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+     margin-right: 1rem;
+     margin-top: 8px;
+     margin-bottom: 0.5rem;
+}
+.box-content{
+    padding:9px 0px 8px 8px ;
+}
+.box-content a{
+    text-decoration: none;
+    color: #007185;
+}
+
+.Bbox{
+    height: 270px;
+    width:95%;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+.Bbox-content{
+    padding:9px 0px 8px 8px ;
+}
+.Bbox-imgs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Bbox-img{
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+     margin-top: 8px;
+     margin-bottom: 0.5rem;
+}
